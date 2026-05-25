@@ -7,7 +7,7 @@
             {
                 Console.WriteLine("=== Start av programmet ===");
 
-                //Stuff
+                //Stuff 2
 
 
                 // Exempel 1: try-catch-finally
