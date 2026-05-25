@@ -36,11 +36,7 @@
                     // Fallback för alla övriga obekanta fel
                     Console.WriteLine($"Okänt fel: {ex.Message}");
                 }
-                finally
-                {
-                    // Körs ALLTID, även om det blev undantag
-                    Console.WriteLine("Cleanup: Logging avslutat anrop.");
-                }
+
 
                 Console.WriteLine("Programmet avslutas normalt.");
             }
