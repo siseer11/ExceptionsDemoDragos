@@ -10,6 +10,12 @@
                 // Exempel 1: try-catch-finally
                 try
                 {
+                    //this needs a good loop
+                    for (int i = 0; i < 5; i++)
+                    {
+                        i = i % 4;
+                    }
+
                     Console.WriteLine("Försöker läsa fil och räkna...");
                     var path = Path.Combine(AppContext.BaseDirectory, "numbers.txt");
 
